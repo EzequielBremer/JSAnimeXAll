@@ -5,16 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Anime, Mangas, Juegos, Wallpapers, Waifus, Ver anime online, wallpapers anime, leer mangas, estrenos anime, juegos gratis, ver anime gratis, mejores wallpapers de anime">
-    <title>Anime X All Mangas</title>
-    <link rel="shortcut icon" href="../img/nagiicon.ico" />
+    <title>Anime X All Compras</title>
+    <link rel="shortcut icon" href="../img/nagiicon.ico"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/67013efa93.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../scss/estilos.css">
 </head>
-
-<body class="container__gridMangas">
+<body class="container__gridContactanos">
   <!--Empieza el Nav-->
   <header>
     <nav class="navbar navbar-expand-lg colornav">
@@ -50,31 +49,36 @@
   </header>
   <!--termina el Nav-->
   <!--Inicio del contenido Principal-->
-    <main>
-      <section class="recomendados__containerMangas">
-        <h3 class="lCompraManga">¿Quieres comprar tu Manga Favorito? <a href="compras.html">Haz Click Aqui.</a></h3>
-        <h1>Mangas Recomendados</h1>
-          <div class="imgRecomendadosMangas">
-                <div class="linea1Mangas">
-                    <h3><a href="https://lectortmo.com/library/manga/44055/blue-lock" target="_blank"><img src="../img/bluelockmanga.jpg" alt="Portada Anime Recomendado"></a>Blue Lock</h3>
-                    <h3><a href="https://callofthenightmanga.com/" target="_blank"><img src="../img/callofthenightmanga.jpg" alt="Portada Anime Recomendado"></a>Call Of The Night</h3>
-                    <h3><a href="https://r2.leermanga.xyz/fire+brigade+of+flames/11506" target="_blank"><img src="../img/fireforcemanga.webp" alt="Portada Anime Recomendado"></a>Fire Force</h3>
-                    <h3><a href="https://r2.leermanga.xyz/jibaku+shounen+hanako-kun/18113/chapters?page=1" target="_blank"><img src="../img/hanakomanga.jpg" alt="Portada Anime Recomendado"></a>Hanako-kun</h3>
-                    <h3><a href="https://mangaplus.shueisha.co.jp/titles/200031" target="_blank"><img src="../img/spyxfamilimanga.webp" alt="Portada Anime Recomendado"></a>Spy X Family</h3>
-                </div>
-                <div class="linea2Mangas">
-                    <h3><a href="https://horimiya.manganyaa.com/leer-online-gratis-espanol/" target="_blank"><img src="../img/horimiyamang.jpg" alt="Portada Anime Recomendado"></a>Horimiya</h3>
-                    <h3><a href="https://lectortmo.com/library/manga/14012/wotaku-ni-koi-wa-muzukashii" target="_blank"><img src="../img/wotakoimanga.jpg" alt="Portada Anime Recomendado"></a>Wotakoi</h3>
-                    <h3><a href="https://r2.leermanga.xyz/sword+art+online/14513" target="_blank"><img src="../img/portadasaomanga.webp" alt="Portada Anime Recomendado"></a>Sword Art Online</h3>
-                    <h3><a href="https://mangaplus.shueisha.co.jp/titles/200016" target="_blank"><img src="../img/onepiecemanga.jpg" alt="Portada Anime Recomendado"></a>One Piece</h3>
-                    <h3><a href="https://r2.leermanga.xyz/re%3Azero+kara+hajimeru+isekai+seikatsu+official+anthology/13797/chapters?page=1" target="_blank"><img src="../img/rezeroportadamanga.webp" alt="Portada Anime Recomendado"></a>Re-Zero</h3>
-               </div>
-          </div>
-       </section>
-    </main>   
+  <select id="filtroTalle">
+    <option value="all">Todos</option>
+    <option value="L">Large</option>
+    <option value="M">Medium</option>
+    <option value="S">Small</option>
+</select>
+
+
+<main id="contenedor-productos">
+
+</main>
+
+<div class="modal-contenedor">
+    <div class="modal-carrito">
+        <h3>Carrito</h3>
+        <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+        <div id="carrito-contenedor">
+            <!-- <div class="productoEnCarrito">
+                <p>Buzo 1</p>
+                <p>Precio: $1200</p>
+                <button class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
+            </div> -->
+        </div>
+        <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+        <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+    </div>
+</div>
     <!--Fin del contenido Principal-->
     <!--Inicio Footer-->
-    <footer class="text-center text-white footer ">
+    <footer class="text-center text-white footer">
       <!-- Grid container -->
       <div class="container pt-4">
         <!-- Section: Social media -->
@@ -115,7 +119,7 @@
       </div>
       <!-- Copyright -->
     </footer>
-     <!--Fin del Footer-->
+    <!--Fin del Footer-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="../javas/main.js"></script>
 </body>

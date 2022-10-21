@@ -60,30 +60,31 @@
   align-items: center;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.534);
-  width: 50%;
-  border: 2px solid red;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  border: 3px solid rgb(92, 92, 189);
+  padding: 50px;
+  padding-top: 40px;
+  padding-bottom: 70px;
 }
 .mainLogin .formContainer .iUser {
-  border: 2px solid red;
+  border: 2px solid rgb(92, 92, 189);
   margin-bottom: 3%;
   color: rgb(0, 0, 0);
+  margin-top: 10%;
 }
 .mainLogin .formContainer .iPass {
-  border: 2px solid red;
+  border: 2px solid rgb(92, 92, 189);
   color: rgb(0, 0, 0);
   margin-bottom: 3%;
 }
 .mainLogin .formContainer .loginBtn {
   color: rgb(255, 255, 255);
-  background-color: rgba(255, 0, 0, 0.607);
-  border: 2px solid red;
-  margin-top: 2%;
+  background-color: rgba(92, 92, 189, 0.663);
+  border: 2px solid rgb(92, 92, 189);
   transition: all;
+  margin-top: 10%;
 }
 .mainLogin .formContainer .loginBtn:hover {
-  background-color: rgba(120, 0, 0, 0.904);
+  background-color: rgba(43, 43, 131, 0.663);
 }
 
 .mainContainer {
@@ -211,12 +212,20 @@
   border: 3px solid rgb(255, 255, 255);
 }
 
+.lCompraManga {
+  background-color: rgba(255, 0, 0, 0.49);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
 .recomendados__containerMangas h1 {
   background-color: rgb(255, 0, 0);
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
   margin-bottom: 3%;
+  margin-top: 2%;
 }
 
 .linea1Mangas {
@@ -736,4 +745,152 @@
   .footer {
     width: 100%;
   }
+}
+#boton-carrito {
+  border: none;
+  color: royalblue;
+  font-size: 40px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px 20px;
+  transition: all 0.3s;
+}
+
+#boton-carrito:hover {
+  cursor: pointer;
+  color: white;
+  background-color: royalblue;
+}
+
+#boton-carrito:focus {
+  outline: none;
+}
+
+#contenedor-productos {
+  max-width: 1200px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+p {
+  line-height: 1.8;
+}
+
+.producto {
+  max-width: 20%;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.precioProducto {
+  font-weight: 700;
+}
+
+.boton-agregar {
+  background-color: royalblue;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px;
+  border: none;
+}
+
+.boton-agregar:hover {
+  cursor: pointer;
+}
+
+.boton-agregar:focus {
+  outline: none;
+}
+
+.modal-contenedor {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-carrito {
+  position: relative;
+  background-color: white;
+  min-width: 500px;
+  padding: 20px;
+  margin-top: -100%;
+  transition: all 0.5s;
+}
+
+.modal-active .modal-carrito {
+  margin-top: 0;
+}
+
+.modal-carrito h3 {
+  color: royalblue;
+  padding-bottom: 5px;
+}
+
+.modal-carrito #carritoCerrar {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  color: royalblue;
+  border: none;
+  background-color: white;
+}
+
+.modal-carrito #carritoCerrar:hover {
+  cursor: pointer;
+}
+
+.modal-carrito #carritoCerrar:focus {
+  outline: none;
+}
+
+.modal-carrito .precioProducto {
+  padding-top: 10px;
+}
+
+.productoEnCarrito {
+  border-left: 5px solid lightblue;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productoEnCarrito:hover {
+  border-left: 5px solid royalblue;
+}
+
+.boton-eliminar {
+  background-color: white;
+  color: red;
+  border: none;
+  font-size: 20px;
+}
+
+.boton-eliminar:hover {
+  cursor: pointer;
+}
+
+.boton-eliminar:focus {
+  outline: none;
 }/*# sourceMappingURL=estilos.css.map */
