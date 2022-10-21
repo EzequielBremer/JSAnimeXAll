@@ -46,6 +46,46 @@
   margin-bottom: 0%;
 }
 
+.mainLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+.mainLogin .formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.534);
+  width: 50%;
+  border: 2px solid red;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.mainLogin .formContainer .iUser {
+  border: 2px solid red;
+  margin-bottom: 3%;
+  color: rgb(0, 0, 0);
+}
+.mainLogin .formContainer .iPass {
+  border: 2px solid red;
+  color: rgb(0, 0, 0);
+  margin-bottom: 3%;
+}
+.mainLogin .formContainer .loginBtn {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 0, 0, 0.607);
+  border: 2px solid red;
+  margin-top: 2%;
+  transition: all;
+}
+.mainLogin .formContainer .loginBtn:hover {
+  background-color: rgba(120, 0, 0, 0.904);
+}
+
 .mainContainer {
   display: flex;
   justify-content: center;

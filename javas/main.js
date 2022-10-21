@@ -50,14 +50,7 @@ let precioTotal = cantidad * precioProducto
 let mensaje = alert ("Tiene que pagar " + precioTotal + " Pesos por la compra de la Membresia Nivel " + producto)*/
 
 
-
-
-
-
-
-
-
-
+/*
 
 //ENTREGABLE
 
@@ -184,7 +177,7 @@ while (seleccionarProductos != 0) {
 }
 
 alert("el total de la compra es de: " + total + " Disfrute su Manga")
-
+*/
 
 
 
@@ -250,4 +243,21 @@ const generaCuota = (opcionMembresia, opcion) => {
 
 
 
+//---------------------------
+//TODO NUEVO//
+//---------------------------
 
+
+const username = document.getElementById('username')
+const password = document.getElementById('password')
+const button = document.getElementById('button')
+
+button.addEventListener('click', (e) => {
+    e.preventDefault()
+    const data = {
+        username: username.value,
+        password: password.value
+    }
+
+    console.log(data);
+})
