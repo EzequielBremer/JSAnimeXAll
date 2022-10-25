@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Anime, Mangas, Juegos, Wallpapers, Waifus, Ver anime online, wallpapers anime, leer mangas, estrenos anime, juegos gratis, ver anime gratis, mejores wallpapers de anime">
     <title>Anime X All Compras</title>
-    <link rel="shortcut icon" href="../img/nagiicon.ico"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/67013efa93.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../scss/estilos.css">
+    <link rel="stylesheet" href="../styles.css">
+    <script defer src="../stock.js"></script>
+    <script defer src="../modal.js"></script>
+    <script defer src="../app.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body class="container__gridContactanos">
-  <!--Empieza el Nav-->
+<body class="container__gridCompras">
+
   <header>
     <nav class="navbar navbar-expand-lg colornav">
         <div class="container-fluid">
@@ -47,80 +49,79 @@
         </div>      
     </nav>
   </header>
-  <!--termina el Nav-->
-  <!--Inicio del contenido Principal-->
-  <select id="filtroTalle">
-    <option value="all">Todos</option>
-    <option value="L">Large</option>
-    <option value="M">Medium</option>
-    <option value="S">Small</option>
-</select>
 
+  <header class="carritoHeader">
+    <h1 id="titulo" class="titulo">Compra Tu Manga Favorito</h1>
+    <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+</header>
+    
 
-<main id="contenedor-productos">
+    <select id="filtroTalle" class="selectCatManga">
+        <option value="ACC">Accion</option>
+        <option value="DPT">Deporte</option>
+        <option value="SN">SobreNatural</option>
+        <option value="RMC">Romance</option>
+        <option value="CMA">Comedia</option>
+        <option value="ISK">Isekai</option>
+    </select>
 
-</main>
+    <main id="contenedor-productos" class="containerProductos">
 
-<div class="modal-contenedor">
-    <div class="modal-carrito">
-        <h3>Carrito</h3>
-        <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
-        <div id="carrito-contenedor">
-            <!-- <div class="productoEnCarrito">
-                <p>Buzo 1</p>
-                <p>Precio: $1200</p>
-                <button class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
-            </div> -->
+    </main>
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Tus Mangas</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor"></div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
         </div>
-        <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
-        <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
     </div>
-</div>
-    <!--Fin del contenido Principal-->
-    <!--Inicio Footer-->
-    <footer class="text-center text-white footer">
-      <!-- Grid container -->
-      <div class="container pt-4">
-        <!-- Section: Social media -->
-        <section class="mb-4">
-          <!-- Facebook -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/ezequiel.bremer/" role="button" data-mdb-ripple-color="dark" target="_blank" >
-           <i class="fab fa-facebook-f"></i>
-          </a>
-    
-          <!-- Twitter -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/SakuraMoon22" role="button" data-mdb-ripple-color="dark" target="_blank" >
-           <i class="fab fa-twitter"></i> 
-          </a>
-    
-          <!-- Google -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="./index.html" role="button" data-mdb-ripple-color="dark" target="_blank" >
-            <i class="fab fa-google"></i>
-          </a>
-    
-          <!-- Instagram -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/eze_bremerr/" role="button" data-mdb-ripple-color="dark" target="_blank" >
-            <i class="fab fa-instagram"></i>
-          </a>
 
-          <!-- Github -->
-          <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/EzequielBremer?tab=repositories" role="button" data-mdb-ripple-color="dark" target="_blank" >
-            <i class="fab fa-github"></i>
-          </a>
-        <!-- Section: Social media -->
-        </section>
-      </div>
+    <!--Inicio Footer-->
+    <footer class="text-center text-white footer ">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/ezequiel.bremer/" role="button" data-mdb-ripple-color="dark" target="_blank" >
+             <i class="fab fa-facebook-f"></i>
+            </a>
       
-    
-      <!-- Copyright -->
-      <div class="text-center text-dark p-3 " style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2022 Copyright:
-        <a class="text-dark" href="../index.html">AnimeXAll</a>
-      </div>
-      <!-- Copyright -->
-    </footer>
-    <!--Fin del Footer-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="../javas/main.js"></script>
+            <!-- Twitter -->
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/SakuraMoon22" role="button" data-mdb-ripple-color="dark" target="_blank" >
+             <i class="fab fa-twitter"></i> 
+            </a>
+      
+            <!-- Google -->
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="./index.html" role="button" data-mdb-ripple-color="dark" target="_blank" >
+              <i class="fab fa-google"></i>
+            </a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/eze_bremerr/" role="button" data-mdb-ripple-color="dark" target="_blank" >
+              <i class="fab fa-instagram"></i>
+            </a>
+  
+            <!-- Github -->
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/EzequielBremer?tab=repositories" role="button" data-mdb-ripple-color="dark" target="_blank" >
+              <i class="fab fa-github"></i>
+            </a>
+          <!-- Section: Social media -->
+          </section>
+        </div>
+        
+      
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3 " style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-dark" href="../index.html">AnimeXAll</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+       <!--Fin del Footer-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
