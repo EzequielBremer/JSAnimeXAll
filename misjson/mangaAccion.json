@@ -1,0 +1,13 @@
+[
+    {"id": 1, "nombre": "Spy x Family","cantidad":1,"precio": "$1200","Genero": "Accion,Comedia", "img": "../imgmangas/spyxfamilimanga.jpg"},
+    {"id": 21,"nombre": "Darling In FranXx","cantidad": 1,"precio": "$1400","Genero": "Romance,Accion","img": "../imgmangas/zerotwomanga.jfif"},
+    {"id": 21,"nombre": "Chainwaw-Man","cantidad": 1,"precio": "$1200","Genero": "Accion,SobreNatural","img": "../imgmangas/portadachainsaw.jpg"},
+    {"id": 21,"nombre": "Bleach","cantidad": 1,"precio": "$1200","Genero": "Accion","img": "../imgmangas/portadableach.jpg"}, 
+    {"id": 21,"nombre": "Jujutsu Kaisen 0","cantidad": 1,"precio": "$1100","Genero": "Accion,SobreNatural","img": "../imgmangas/portadajujutsu0.jpg"},
+    {"id": 21,"nombre": "Jujutsu Kaisen","cantidad": 1,"precio": "$1100","Genero": "Accion,SobreNatural","img": "../imgmangas/portadajujutsu1.jpg"}, 
+    {"id": 21,"nombre": "Banana Fish","cantidad": 1,"precio": "$1900","Genero": "Accion,Romance","img": "../imgmangas/portadabananafish.jpg"},
+    {"id": 21,"nombre": "Berserk", "cantidad": 1, "precio": "$1200", "Genero": "Accion","img": "../imgmangas/portadaberserk.jpg"},
+    {"id": 21,"nombre": "Fire-Force","cantidad": 1,"precio": "$950","Genero": "Accion,SobreNatural","img": "../imgmangas/fireforcemanga.jpg"},
+    {"id": 21,"nombre": "Demon Slayer","cantidad": 1,"precio": "$1200","Genero": "Accion,SobreNatural","img": "../imgmangas/portadakny.jpg"},
+    {"id": 21,"nombre": "86","cantidad": 1,"precio": "$1200","Genero": "Accion","img": "../imgmangas/portada86.jpg"}
+  ]

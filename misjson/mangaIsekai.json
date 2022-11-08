@@ -1,0 +1,7 @@
+[
+   {"id": 21,"nombre": "One Piece","cantidad": 1,"precio": "$1200","Genero": "Accion,Isekai","img": "../imgmangas/portadaonepiece.jpg"},
+   {"id": 21,"nombre": "S.A.O","cantidad": 1,"precio": "$1200","Genero": "Accion,Romance","img": "../imgmangas/portadasaomanga.jpg"},
+   {"id": 21,"nombre": "Demon Slayer","cantidad": 1,"precio": "$1200","Genero": "Accion,Isekai","img": "../imgmangas/portadakny.jpg"},
+   {"id": 21,"nombre": "86","cantidad": 1,"precio": "$1200","Genero": "Accion,Romance,Isekai","img": "../imgmangas/portada86.jpg"},
+   {"id": 21,"nombre": "Attack Of Titans","cantidad": 1,"precio": "$1200","Genero": "Accion,Isekai","img": "../imgmangas/portadaaot.jpg"}
+]

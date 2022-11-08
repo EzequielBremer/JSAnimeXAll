@@ -1,0 +1,14 @@
+[
+    {"id": 21,"nombre": "Darling In FranXx","cantidad": 1,"precio": "$1200","Genero": "Romance,Accion","img": "../imgmangas/zerotwomanga.jfif"},
+    {"id": 21,"nombre": "Wotakoi","cantidad": 1,"precio": "$1200","Genero": "Romance,Comedia","img": "../imgmangas/wotakoimanga.jpg"},
+    {"id": 21,"nombre": "Horimiya","cantidad": 1,"precio": "$1200","Genero": "Romance,Comedia","img": "../imgmangas/horimiyamang.jpg"},
+    {"id": 21,"nombre": "S.A.O","cantidad": 1,"precio": "$1200","Genero": "Romance,Accion","img": "../imgmangas/portadasaomanga.jpg"},
+    {"id": 21,"nombre": "Banana Fish","cantidad": 1,"precio": "$1200","Genero": "Romance,Accion","img": "../imgmangas/portadabananafish.jpg"},
+    {"id": 21,"nombre": "Given","cantidad": 1,"precio": "$1200","Genero": "Romance","img": "../imgmangas/portadagiven.jpg"},
+    {"id": 21,"nombre": "Hanako-Kun","cantidad": 1,"precio": "$1200","Genero": "Romance,SobreNatural","img": "../imgmangas/hanakomanga.jpg"},
+    {"id": 21,"nombre": "Call Of The Night","cantidad": 1,"precio": "$1200","Genero": "Romance,Comedia","img": "../imgmangas/callofthenightmanga.jpg"},
+    {"id": 21,"nombre": "Ao Haru Ride","cantidad": 1,"precio": "$1200","Genero": "Romance","img": "../imgmangas/portadaaoharuride.jpg"},
+    {"id": 21,"nombre": "Devour Your Heart","cantidad": 1,"precio": "$1200","Genero": "Romance","img": "../imgmangas/portadadtc.jpg"},
+    {"id": 21,"nombre": "Bunny Girl Senpai","cantidad": 1,"precio": "$1200","Genero": "Romance","img": "../imgmangas/portadabgs.jpg"},
+    {"id": 21,"nombre": "86","cantidad": 1,"precio": "$1200","Genero": "Romance,Accion,Isekai","img": "../imgmangas/portada86.jpg"}
+]

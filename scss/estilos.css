@@ -229,7 +229,7 @@
   text-transform: uppercase;
   font-size: 30px;
   margin-bottom: 3%;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 .linea1Mangas {
@@ -758,4 +758,61 @@
   .footer {
     width: 100%;
   }
+}
+.buscador {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.buscador .valor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  color: rgb(0, 0, 0);
+  border: 2px solid red;
+}
+.buscador .buscarBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2%;
+  color: rgb(0, 0, 0);
+  border: 2px solid red;
+}
+
+.imgDeBuscador {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgDeBuscador img {
+  width: 280px;
+  height: 380px;
+  border-bottom: 2px solid red;
+}
+
+.containerCompraMangas {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3%;
+  border: 2px solid red;
+  transition: 0.5s;
+}
+.containerCompraMangas:hover {
+  border: 2px solid rgb(255, 255, 255);
+}
+.containerCompraMangas .imgFondo {
+  background-color: black;
+}
+.containerCompraMangas .compraManga {
+  background-color: red;
+  color: white;
+  border: 2px solid white;
 }/*# sourceMappingURL=estilos.css.map */

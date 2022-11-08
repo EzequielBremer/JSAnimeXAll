@@ -1,0 +1,8 @@
+[
+   {"id": 21,"nombre": "Chainsaw-Man","cantidad": 1,"precio": "$1200","Genero": "SobreNatural","img": "../imgmangas/portadachainsaw.jpg"},
+   {"id": 21,"nombre": "Jujutsu Kaisen 0","cantidad": 1,"precio": "$1200","Genero": "SobreNatural","img": "../imgmangas/portadajujutsu0.jpg"},
+   {"id": 21,"nombre": "Jujutsu Kaisen","cantidad": 1,"precio": "$1200","Genero": "SobreNatural","img": "../imgmangas/portadajujutsu1.jpg"},
+   {"id": 21,"nombre": "Fire Force","cantidad": 1,"precio": "$1200","Genero": "SobreNatural","img": "../imgmangas/fireforcemanga.jpg"},
+   {"id": 21,"nombre": "Hanako-Kun","cantidad": 1,"precio": "$1200","Genero": "SobreNatural","img": "../imgmangas/hanakomanga.jpg"},
+   {"id": 21,"nombre": "Bunny Girl Senpai","cantidad": 1,"precio": "$1200","Genero": "SobreNatural","img": "../imgmangas/portadabgs.jpg"}
+]

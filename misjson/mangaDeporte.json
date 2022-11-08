@@ -1,0 +1,4 @@
+[
+   {"id": 3,"nombre": "Blue Lock","cantidad":1,"precio": "$1200","Genero": "Deporte", "img": "../imgmangas/bluelockmanga.jpg"},
+   {"id": 21,"nombre": "Haikyuu","cantidad": 1,"precio": "$1200","Genero": "Deporte","img": "../imgmangas/portadahaikyuu.jpg"}
+]

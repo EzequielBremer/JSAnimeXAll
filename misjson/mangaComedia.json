@@ -1,0 +1,6 @@
+[
+    {"id": 21,"nombre": "Spy X Family","cantidad": 1,"precio": "$1200","Genero": "Comedia","img": "../imgmangas/spyxfamilimanga.jpg"},
+    {"id": 21,"nombre": "Wotakoi","cantidad": 1,"precio": "$1200","Genero": "Comedia","img": "../imgmangas/wotakoimanga.jpg"},
+    {"id": 21,"nombre": "Horimiya","cantidad": 1,"precio": "$1200","Genero": "Comedia","img": "../imgmangas/horimiyamang.jpg"},
+    {"id": 21,"nombre": "Call Of The Night","cantidad": 1,"precio": "$1200","Genero": "Comedia","img": "../imgmangas/callofthenightmanga.jpg"}
+]
